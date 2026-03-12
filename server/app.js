@@ -40,7 +40,7 @@ io.on("connection", (socket) => {
     if (!rooms.has(roomId)) {
       rooms.set(roomId, {
         users: new Set(),
-        code: "// Welcome to CodeColab!\n\nfunction helloWorld() {\n  console.log('Hello, world!');\n}",
+        code: "// Start coding here...",
         language: "javascript"
       });
     }

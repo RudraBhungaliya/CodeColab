@@ -28,7 +28,6 @@ body {
   overflow: hidden;
 }
 
-/* ================== Join Screen ================== */
 .app {
   height: 100vh;
   width: 100vw;
@@ -38,7 +37,6 @@ body {
   position: relative;
 }
 
-/* Background animated glow for join screen */
 .app::before {
   content: '';
   position: absolute;
@@ -149,8 +147,6 @@ body {
   transform: translateY(1px) scale(0.98);
 }
 
-
-/* ================== Editor Layout ================== */
 .editor-container {
   height: 100vh;
   width: 100vw;
@@ -377,16 +373,14 @@ body {
   border-color: rgba(255, 77, 79, 0.4);
 }
 
-/* ================== Editor Container ================== */
 .editor-wrapper {
   flex: 1;
   height: 100%;
-  background: #1e1e1e; /* Monaco default dark background */
+  background: #1e1e1e; 
   position: relative;
   z-index: 1;
 }
 
-/* Scrollbar styling for modern feel */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
