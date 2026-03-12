@@ -1,4 +1,13 @@
 {
+  "name": "codecolab-server",
+  "version": "1.0.0",
+  "description": "Backend for CodeColab realtime collaboration",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
